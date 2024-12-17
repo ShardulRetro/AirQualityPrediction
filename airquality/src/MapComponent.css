@@ -1,0 +1,28 @@
+/* styles.css */
+.fade-in {
+   animation: fadeIn 0.5s ease-in;
+ }
+ 
+ @keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+   to {
+     opacity: 1;
+   }
+ }
+ 
+ .card {
+   transition: transform 0.3s;
+ }
+ 
+ .card:hover {
+   transform: scale(1.05);
+ }
+ .crosshair-cursor {
+  cursor: crosshair !important; /* Change cursor to crosshair */
+}
+
+.leaflet-draw-marker {
+  display: none !important; /* Hide the default marker icon */
+}
